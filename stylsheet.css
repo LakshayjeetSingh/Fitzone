@@ -1,0 +1,119 @@
+ body {
+     font-family: sans-serif;
+     margin: 0 0;
+     background: url(32755.jpg);
+     background-position: center;
+     background-size: cover;
+     overflow-x: hidden;
+     background-attachment: fixed;
+ }
+
+ .box {
+     position: absolute;
+     top: 50%;
+     left: 70%;
+     height: 500px;
+     width: 300px;
+     transform: translate(-20%, -50%);
+     background: rgba(0, 0, 0, 0.8);
+     padding: 40px 40px 40px 40px;
+     box-sizing: border-box;
+     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+     border-radius: 10px;
+ }
+
+ .box h2 {
+     padding: 0;
+     margin: 0 0 30px;
+     text-align: center;
+     color: #fff;
+
+ }
+
+ .box .inputbox {
+     position: relative;
+ }
+
+ .box .inputbox input {
+     padding: 10px 0;
+     font-size: 16px;
+     width: 100%;
+     margin-bottom: 30px;
+     border: none;
+     letter-spacing: 1px;
+     outline: none;
+     background: transparent;
+     color: #fff;
+     border-bottom: 1px solid white;
+ }
+
+ .box .inputbox label {
+     position: absolute;
+     top: 0;
+     left: 0;
+     padding: 10px 0;
+     letter-spacing: 2px;
+     font-size: 16px;
+     color: rgb(255, 255, 255);
+     pointer-events: none;
+     transition: .5s;
+ }
+
+ .box .inputbox input:focus~label,
+ .box .inputbox input:valid~label {
+     top: -18px;
+     left: 0;
+     color: #03a9f4;
+     font-size: 12px;
+ }
+
+ input[type="submit"] {
+     border: 1px solid #03a9f4;
+     outline: none;
+     background: transparent;
+     color: #fff;
+     cursor: pointer;
+
+     padding: 5px 15px;
+     border-radius: 12px;
+     width: 100%;
+ }
+
+ input[type="submit"]:hover {
+     background: #03a9f4;
+ }
+
+ span {
+     color: white;
+     font-size: 14px;
+ }
+
+ .brand {
+     float: left;
+     font-size: 12.5vw;
+     color: white;
+     font-family: "comic sans ms", serif;
+     text-shadow: 0 0 0 transparent, 0 0 10px #2695ff, 0 0 20px rgba(38, 149, 255, 0.5), 0 0 40px #2695ff, 0 0 100px #2695ff, 0 0 200px #2695ff, 0 0 300px #2695ff, 0 0 500px #2695ff;
+     position: absolute;
+     top: 350px;
+     left: 8%;
+ }
+
+ .space {
+     margin-bottom: 69px;
+ }
+ @media (max-width: 600px) {
+ .brand { 
+    position: absolute;
+    top: 0%;
+    left: 27%;
+ }
+ .box {
+    position :absolute;
+    transform: translate(-80%, -35%);
+  }
+ }
+
+
+
+ 

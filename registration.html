@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Sign Up
+    </title>
+<link rel="stylesheet" href="stylsheet.css">
+</head>
+<body>
+    <div class="bg">
+    </div>
+    <div class="box">
+        <h2>Sign Up</h2>
+        <form action="register.php" method="POST">
+            <div class="inputbox">
+                        <input type="text" name="uname" autocomplete="Off" required="">
+                        <label>User name</label>
+            </div>
+            <div class="inputbox">
+                <input type="email" autocomplete="off" name="email" required="">
+                <label>E-mail</label>
+            </div>
+            <div class="inputbox">
+                <input type="password" id="password" name="password" required="">
+                <label>Password</label>
+            </div>
+           <center>
+                <input type="submit" name="signup" value="Sign Up">
+            </center>
+        </form>
+        <center>
+            <br>
+           <span>or</span><br><br><a href="login.html">
+                <input type="submit" name="" value="Log in"></a><br><br>
+            <span>if you have already registered</span>
+        </center>
+    </div>
+    <div class="brand">FitZone</div>
+</body>
+
+</html>
